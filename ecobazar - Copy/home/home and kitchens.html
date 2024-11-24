@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home & Kitchen Products</title>
+  <link rel="stylesheet" href="home and kitchens.css">
+  
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="preload" as="image" href="./assets/images/banner-1.jfif">
+  <link rel="preload" as="image" href="./assets/images/banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/banner-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">Reduce, Re-use and Recycle</p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Search product" class="search-field">
+
+          <button class="search-submit" aria-label="search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="assets/images/logo2.jpg" width="200" height="50" alt="Eco-Bazar">
+        </a>
+
+        <div class="header-actions">
+
+          <a href="cart.html">
+          <button class="header-action-btn" aria-label="user">
+            <ion-icon name="cart-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button>
+        </a>
+
+          <a href="login.html">
+          <button class="header-action-btn" aria-label="favourite item">
+            <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button>
+        </a>
+
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link has-after">Shop</a>
+            </li>
+
+            <li>
+              <a href="#collection" class="navbar-link has-after">Home and Kitchens</a>
+            </li>
+
+            <li>
+              <a href="#shop" class="navbar-link has-after">Beauty</a>
+            </li>
+
+            <li>
+              <a href="#offer" class="navbar-link has-after">Cleaning</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link has-after">Clothes</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link has-after">Bathroom</a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <!-- 
+    - #MOBILE NAVBAR
+  -->
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="#" width="179" height="26" alt="Eco-Bazar">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Shop</a>
+        </li>
+
+        <li>
+          <a href="#collection" class="navbar-link" data-nav-link>Home and Kitchens</a>
+        </li>
+
+        <li>
+          <a href="#shop" class="navbar-link" data-nav-link>Beauty</a>
+        </li>
+
+        <li>
+          <a href="#offer" class="navbar-link" data-nav-link>Cleaning</a>
+        </li>
+
+        <li>
+          <a href="#blog" class="navbar-link" data-nav-link>Clothes</a>
+        </li>
+
+        <li>
+          <a href="#blog" class="navbar-link has-after">Bathroom</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+  <section class="product-container">
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="images/p1.jfif" alt="Bamboo Toothbrush">
+      <div class="product-info">
+        <h2>Bamboo Toothbrush</h2>
+        <p class="description">A sustainable alternative to plastic toothbrushes. Made with bamboo handles and soft bristles, this eco-friendly toothbrush is gentle on your teeth and the planet.</p>
+        <div class="price-add-to-cart">
+          <p class="price">NPR 150</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="images/p2.jfif" alt="Stainless Steel Straw Set">
+      <div class="product-info">
+        <h2>Stainless Steel Straw Set</h2>
+        <p class="description">Reusable stainless steel straws to reduce single-use plastic. Perfect for your smoothies, drinks, and cocktails.</p>
+        <div class="price-add-to-cart">
+          <p class="price">NPR 300</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+      <img src="images/p3.jfif" alt="Organic Cotton Dish Towels">
+      <div class="product-info">
+        <h2>Organic Cotton Dish Towels</h2>
+        <p class="description">Soft and durable dish towels made from organic cotton, perfect for drying dishes without harming the environment.</p>
+        <div class="price-add-to-cart">
+          <p class="price">NPR 500</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product">
+      <img src="images/p4.jfif" alt="Eco-Friendly Cutting Board">
+      <div class="product-info">
+        <h2>Eco-Friendly Cutting Board</h2>
+        <p class="description">A sustainable cutting board made from bamboo, a renewable resource. Durable and easy to clean, perfect for your kitchen.</p>
+        <div class="price-add-to-cart">
+          <p class="price">NPR 800</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product">
+      <img src="images/p5.jfif" alt="Recycled Paper Notebooks">
+      <div class="product-info">
+        <h2>Recycled Paper Notebooks</h2>
+        <p class="description">A set of 3 notebooks made from 100% recycled paper. Perfect for your notes, journaling, or schoolwork.</p>
+        <div class="price-add-to-cart">
+          <p class="price">NPR 250</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product">
+      <img src="images/p6.png" alt="Reusable Glass Water Bottle">
+      <div class="product-info">
+        <h2>Reusable Glass Water Bottle</h2>
+        <p class="description">A stylish and durable water bottle made from high-quality glass. Perfect for hydration while reducing plastic waste.</p>
+        <div class="price-add-to-cart">
+          <p class="price">NPR 600</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product">
+      <img src="images/p7.jfif" alt="Natural Beeswax Wraps">
+      <div class="product-info">
+        <h2>Natural Beeswax Wraps</h2>
+        <p class="description">A natural alternative to plastic wraps, these beeswax wraps are perfect for keeping your food fresh while being eco-friendly.</p>
+        <div class="price-add-to-cart">
+          <p class="price">NPR 350</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="product">
+      <img src="images/p8.jfif" alt="Compostable Trash Bags">
+      <div class="product-info">
+        <h2>Compostable Trash Bags</h2>
+        <p class="description">These compostable trash bags are perfect for reducing your carbon footprint while still being practical and sturdy for everyday use.</p>
+        <div class="price-add-to-cart">
+          <p class="price">NPR 450</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 9 -->
+    <div class="product">
+      <img src="images/p9.webp" alt="Eco-Friendly Laundry Detergent">
+      <div class="product-info">
+        <h2>Eco-Friendly Laundry Detergent</h2>
+        <p class="description">A gentle yet powerful detergent made from natural ingredients that clean your clothes without harming the environment.</p>
+        <div class="price-add-to-cart">
+          <p class="price">NPR 700</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 10 -->
+    <div class="product">
+      <img src="images/p10.jpeg" alt="Eco-Friendly Wooden Spoons">
+      <div class="product-info">
+        <h2>Eco-Friendly Wooden Spoons</h2>
+        <p class="description">Set of 3 wooden spoons made from sustainably sourced wood, perfect for cooking without damaging your pots and pans.</p>
+        <div class="price-add-to-cart">
+          <p class="price">NPR 400</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+     <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" data-section>
+    <div class="container">
+      <div class="footer-top">
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Eco-Bazar</p>
+          </li>
+          <li>
+            <p>Look deep into nature, and then you will understand everything better.</p>
+          </li>
+        </ul>
+  
+        <!-- Second column: Social media links -->
+        <div class="footer-list-title">Social Media<br><br>
+          <ul class="social-list">
+            <li>
+              <a href="https://www.twitter.com" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.fb.com" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+  
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+          <li>
+            <a href="mailto:Ecobazar77@gmail.com" class="span">Ecobazar77@gmail.com</a>
+          </li>
+          <li>
+            <p>Ph +977-9810030408</p>
+          </li>
+          <li>
+            <a href="#" class="span">Live Chat</a>
+          </li>
+          <li>
+            <p>Sanepa-2, Lalitpur</p>
+          </li>
+        </ul>
+  
+        <div class="footer-list">
+          <p class="newsletter-title">Emails</p>
+          <p class="newsletter-text">
+            Enter your email below to be the first to know about new collections and eco-friendly product launches.
+          </p>
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email address" required class="email-field">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

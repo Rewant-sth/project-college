@@ -1,0 +1,153 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and container */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: #333;
+    transition: background 0.5s ease;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Form Container */
+  .form-container {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Titles */
+  h1 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Input fields */
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7);
+  }
+  
+  /* Button */
+  button {
+    padding: 0.8rem 1.5rem;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Form Options */
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 1rem;
+  }
+  
+  .form-options a {
+    color: #4caf50;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .form-options a:hover {
+    color: #388e3c;
+    text-decoration: underline;
+  }
+  
+  /* Toggle link styles */
+  .toggle-link {
+    margin-top: 20px;
+    color: #4caf50;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .toggle-link span {
+    font-weight: bold;
+  }
+  
+  .toggle-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Password visibility toggle */
+  input[type="password"] {
+    padding-right: 35px; /* Space for the toggle icon */
+  }
+  
+  input[type="password"] + span {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #4caf50;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .form-container {
+      width: 100%;
+      padding: 1.5rem;
+    }
+  }
+  
