@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    line-height: 1.6;
+}
+
+.btn-dark {
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 30px;
+    font-size: 1 rem;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-dark:hover {
+    background-color:white;
+    color: black;
+ }
+ 
