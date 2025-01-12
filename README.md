@@ -1,1 +1,1 @@
-# project-college
+# college-project
